@@ -1,6 +1,7 @@
 def run():
     my_list = [1, 'Hello', True, 4.5]
     my_dict= {'firstname':'Victor', 'lastname':'García'}
+    my_list_2 = [1, 2, 3, 4, 5]
     cont = 1
 
     super_list = [
@@ -17,10 +18,12 @@ def run():
         'floating_nums': [1.1, 4.5, 6.43]
     }
 
-    for values in super_list:
-        for key, value in values.items():
-            print(f'{key}-{value}')
+    # for values in super_list:
+    #     for key, value in values.items():
+    #         print(f'{key}-{value}')
+    
 
+    
 
 if __name__ == '__main__':
     run()
