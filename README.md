@@ -1,6 +1,6 @@
 # Python Nivel Intermedio
 
-There are some exercise more difficult than on the easy level of Python
+There are some exercises more difficult than on the easy level of Python
 
 ## Filtering Data
 
