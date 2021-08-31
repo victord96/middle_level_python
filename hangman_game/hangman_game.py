@@ -5,14 +5,14 @@ from os import system
 
 
 def correct_word(word_incomplete):
-    """This methods loads the winner word from words.txt what is located in data folder
+    """This method loads the winner word from words.txt that is located in the data folder
 
     Args:
-        word_incomplete ([List]): [I use this list to give it a '-' symbol for every letter that winner word have,
-        with purpose to show it in the screen when game begin]
+        word_incomplete List: I use this list to give it a '-' symbol for every letter that winner word have,
+        with purpose to show it in the screen when game begin
 
     Returns:
-        [str]: [This winner word is the word that I'm going to use on the match]
+        str: This winner word is the word that I'm going to use in the match
     """
     random_number = random.randint(1, 171)
     cont = 0
@@ -53,16 +53,16 @@ def compare_letter(letter_try, winner_word, word_incomplete, letter_tries, lives
     """This function is the main screen of the game, I use it for calculate how the game is going
 
     Args:
-        letter_try ([str]): [It's the letter that user input]
-        winner_word ([str]): [Represents the winner word that correct_word generate]
-        word_incomplete ([List]): [I use this list to give it a '-' symbol for every letter that winner word have,
-        with purpose to show it in the screen when game begin]
-        letter_tries ([List]): [Save all the letters that user try in game]
-        lives ([int]): [The lives of the player]
-        hang ([List]): [Grafical design of the hangman]
+        letter_try str: It's the letter that user input
+        winner_word str: Represents the winner word that correct_word generate
+        word_incomplete List: I use this list to give it a '-' symbol for every letter that winner word have,
+        with purpose to show it in the screen when game begin
+        letter_tries List: Save all the letters that user try in game
+        lives int: Lives of the player
+        hang List: ASCII code of the hangman
 
     Returns:
-        [type]: [description]
+        status bool: If word is completely discovered, this variable indicates to the game that it need to be finished
     """
 
     status = False
