@@ -36,6 +36,6 @@ You'll find two folders inside:
 
 2. POOPython directory contains a variety of  more complex exercises about decorators, @property, optimization etc...
 
-## Ejercicios Sueltos
+## Loose Exercises
 
 On this directory you can find some exercises that I have used to practice, but they are too simple to separate
