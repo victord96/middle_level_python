@@ -2,7 +2,7 @@
 
 In this proyect, I will work with some new concepts like POO, debugging etc...
 
-Like in the basic proyect, I will document every folder of my work in this file, just down here:
+Like on the basic proyect, I will document every folder of my work in this file, just down here:
 
 ## File Control
 
